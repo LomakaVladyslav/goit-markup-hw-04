@@ -64,6 +64,7 @@ img {
 
 .container-header {
   display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -72,8 +73,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 24px;
-  margin-bottom: 24px;
   display: flex;
   gap: 40px;
 }
@@ -84,10 +83,8 @@ img {
 }
 
 .contact-info {
-  display: flex;
-  align-items: center;
-  gap: 40px;
   margin-left: auto;
+  font-style: normal;
 }
 
 .nav-links {
@@ -95,11 +92,9 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-size: 16px;
-  margin-top: 24px;
-  margin-bottom: 24px;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 
 .current {
@@ -357,7 +352,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
 }
